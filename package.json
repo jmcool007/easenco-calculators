@@ -1,0 +1,45 @@
+{
+  "name": "easenco-calculators",
+  "version": "0.1.0",
+  "description": "Zero-dependency calculation helpers for SEM sample size, freelance day rates, video production budgeting, crew overtime, and project margin checks.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/index.test.js"
+  },
+  "keywords": [
+    "calculator",
+    "statistics",
+    "sem",
+    "sample-size",
+    "video-production",
+    "freelance",
+    "saas-metrics",
+    "easenco"
+  ],
+  "author": "Easenco <contact@easenco.com>",
+  "license": "MIT",
+  "homepage": "https://www.easenco.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcool007/easenco-calculators.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmcool007/easenco-calculators/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
